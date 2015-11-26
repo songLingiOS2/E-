@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../XX_TableViewController.h">
+   </FileRef>
+   <FileRef
+      location = "group:../XX_TableViewController.m">
+   </FileRef>
+   <FileRef
       location = "self:E&#x6821;&#x56ed;.xcodeproj">
    </FileRef>
 </Workspace>
