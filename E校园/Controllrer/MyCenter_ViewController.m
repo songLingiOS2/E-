@@ -7,6 +7,9 @@
 //
 
 #import "MyCenter_ViewController.h"
+#import "Login_ViewController.h"
+
+#import "Setting_ViewController.h"
 
 @interface MyCenter_ViewController ()
 
@@ -18,8 +21,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.title = @"个人中心";
-    self.view.backgroundColor = [UIColor whiteColor];
     self.edgesForExtendedLayout = UIRectEdgeNone;
+    self.view.backgroundColor = [UIColor whiteColor];
+    
     
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"setting"] style:UIBarButtonItemStylePlain target:self action:@selector(setting:)];
     
@@ -62,10 +66,22 @@
 
 -(void)clickDenglu:(UIButton *)sender{
     NSLog(@".........................");
+    Login_ViewController *login = [[Login_ViewController alloc] init];
+    [self.navigationController pushViewController:login animated:NO];
+    
 }
 
 -(void)setting:(UIBarButtonItem *)sender{
     NSLog(@"xxxxxxxxxxx");
+    Setting_ViewController *setting = [[Setting_ViewController alloc] init];
+    [self.navigationController pushViewController:setting animated:NO];
+    
+    
+    
+}
+
+-(void)viewWillAppear:(BOOL)animated{
+    self.tabBarController.tabBar.hidden = NO;
 }
 
 - (void)didReceiveMemoryWarning {

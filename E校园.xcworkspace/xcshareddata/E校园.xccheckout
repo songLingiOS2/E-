@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>AB6631DB-4BEB-495A-88A6-9D88BC2650F1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>E校园</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E8AF2561FD333C514E786F259DB13A7BD05C693E</key>
+		<string>https://github.com/songLingiOS2/E-.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>E校园.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E8AF2561FD333C514E786F259DB13A7BD05C693E</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/songLingiOS2/E-.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E8AF2561FD333C514E786F259DB13A7BD05C693E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E8AF2561FD333C514E786F259DB13A7BD05C693E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>E%E6%A0%A1%E5%9B%AD</string>
+		</dict>
+	</array>
+</dict>
+</plist>

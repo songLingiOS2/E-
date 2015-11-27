@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F89F1864EEAB14A742CA2F5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A95220097BE09A8302A5F83 /* libPods.a */; };
+		E13A161E1C07E8A20060BA9B /* Setting_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E13A161D1C07E8A20060BA9B /* Setting_ViewController.m */; };
+		E13A16241C07F4F40060BA9B /* AboutMe_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E13A16211C07F4F40060BA9B /* AboutMe_ViewController.m */; };
+		E13A16251C07F4F40060BA9B /* Modify_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E13A16231C07F4F40060BA9B /* Modify_ViewController.m */; };
+		E13A16271C0801510060BA9B /* 大学生之家.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E13A16261C0801510060BA9B /* 大学生之家.jpg */; };
+		E13A162A1C080B5B0060BA9B /* Login_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E13A16291C080B5B0060BA9B /* Login_ViewController.m */; };
+		E13A162D1C080B800060BA9B /* Register_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E13A162C1C080B800060BA9B /* Register_ViewController.m */; };
+		E13A16301C082B4E0060BA9B /* LCTableViewPickerControl.m in Sources */ = {isa = PBXBuildFile; fileRef = E13A162F1C082B4E0060BA9B /* LCTableViewPickerControl.m */; };
 		E1BA2B721C069A7700866DE5 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BA2B711C069A7700866DE5 /* Reachability.m */; };
 		E1BA2B8F1C06D0E200866DE5 /* JRSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BA2B8C1C06D0E200866DE5 /* JRSegmentControl.m */; };
 		E1BA2B901C06D0E200866DE5 /* JRSegmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BA2B8E1C06D0E200866DE5 /* JRSegmentViewController.m */; };
@@ -56,6 +64,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A95220097BE09A8302A5F83 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		711F63D46938C3EFC8843231 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		BE962E71CABA627208FE2AFE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E13A161C1C07E8A20060BA9B /* Setting_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Setting_ViewController.h; sourceTree = "<group>"; };
+		E13A161D1C07E8A20060BA9B /* Setting_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Setting_ViewController.m; sourceTree = "<group>"; };
+		E13A16201C07F4F40060BA9B /* AboutMe_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutMe_ViewController.h; sourceTree = "<group>"; };
+		E13A16211C07F4F40060BA9B /* AboutMe_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutMe_ViewController.m; sourceTree = "<group>"; };
+		E13A16221C07F4F40060BA9B /* Modify_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Modify_ViewController.h; sourceTree = "<group>"; };
+		E13A16231C07F4F40060BA9B /* Modify_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Modify_ViewController.m; sourceTree = "<group>"; };
+		E13A16261C0801510060BA9B /* 大学生之家.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "大学生之家.jpg"; sourceTree = "<group>"; };
+		E13A16281C080B5B0060BA9B /* Login_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Login_ViewController.h; sourceTree = "<group>"; };
+		E13A16291C080B5B0060BA9B /* Login_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Login_ViewController.m; sourceTree = "<group>"; };
+		E13A162B1C080B800060BA9B /* Register_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Register_ViewController.h; sourceTree = "<group>"; };
+		E13A162C1C080B800060BA9B /* Register_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Register_ViewController.m; sourceTree = "<group>"; };
+		E13A162E1C082B4E0060BA9B /* LCTableViewPickerControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCTableViewPickerControl.h; sourceTree = "<group>"; };
+		E13A162F1C082B4E0060BA9B /* LCTableViewPickerControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCTableViewPickerControl.m; sourceTree = "<group>"; };
 		E1BA2B701C069A7700866DE5 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		E1BA2B711C069A7700866DE5 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		E1BA2B8B1C06D0E200866DE5 /* JRSegmentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRSegmentControl.h; sourceTree = "<group>"; };
@@ -134,6 +158,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F89F1864EEAB14A742CA2F5 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,9 +172,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		200DA2CAB5C25DD4C0AAE706 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A95220097BE09A8302A5F83 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E13A161F1C07F4960060BA9B /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				E13A16221C07F4F40060BA9B /* Modify_ViewController.h */,
+				E13A16231C07F4F40060BA9B /* Modify_ViewController.m */,
+				E13A16201C07F4F40060BA9B /* AboutMe_ViewController.h */,
+				E13A16211C07F4F40060BA9B /* AboutMe_ViewController.m */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
 		E1BA2B6F1C069A7700866DE5 /* Unitls */ = {
 			isa = PBXGroup;
 			children = (
+				E13A162E1C082B4E0060BA9B /* LCTableViewPickerControl.h */,
+				E13A162F1C082B4E0060BA9B /* LCTableViewPickerControl.m */,
 				E1BA2B9D1C06FA7000866DE5 /* MJRefresh */,
 				E1BA2B8A1C06D0E200866DE5 /* JRSegmentControl */,
 				E1BA2B701C069A7700866DE5 /* Reachability.h */,
@@ -269,6 +315,8 @@
 				E1D1F8791C068F3F00229D48 /* E校园 */,
 				E1D1F8931C068F3F00229D48 /* E校园Tests */,
 				E1D1F8781C068F3F00229D48 /* Products */,
+				E849CEA37FBECA23FA081BE8 /* Pods */,
+				200DA2CAB5C25DD4C0AAE706 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -297,6 +345,7 @@
 			children = (
 				E1D1F87E1C068F3F00229D48 /* AppDelegate.h */,
 				E1D1F87F1C068F3F00229D48 /* AppDelegate.m */,
+				E13A16261C0801510060BA9B /* 大学生之家.jpg */,
 				E1D1F8841C068F3F00229D48 /* Main.storyboard */,
 				E1BA2B6F1C069A7700866DE5 /* Unitls */,
 				E1D1F8871C068F3F00229D48 /* Images.xcassets */,
@@ -349,6 +398,10 @@
 		E1D1F8A31C06948400229D48 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E13A16281C080B5B0060BA9B /* Login_ViewController.h */,
+				E13A16291C080B5B0060BA9B /* Login_ViewController.m */,
+				E13A162B1C080B800060BA9B /* Register_ViewController.h */,
+				E13A162C1C080B800060BA9B /* Register_ViewController.m */,
 				E1BA2B911C06D1C600866DE5 /* First_ViewController.h */,
 				E1BA2B921C06D1C600866DE5 /* First_ViewController.m */,
 				E1BA2B951C06D1C600866DE5 /* Second_ViewController.h */,
@@ -357,8 +410,20 @@
 				E1BA2B981C06D1C600866DE5 /* Third_ViewController.m */,
 				E1BA2B931C06D1C600866DE5 /* Forth_ViewController.h */,
 				E1BA2B941C06D1C600866DE5 /* Forth_ViewController.m */,
+				E13A161C1C07E8A20060BA9B /* Setting_ViewController.h */,
+				E13A161D1C07E8A20060BA9B /* Setting_ViewController.m */,
+				E13A161F1C07F4960060BA9B /* Setting */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		E849CEA37FBECA23FA081BE8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				711F63D46938C3EFC8843231 /* Pods.debug.xcconfig */,
+				BE962E71CABA627208FE2AFE /* Pods.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -368,9 +433,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E1D1F89A1C068F3F00229D48 /* Build configuration list for PBXNativeTarget "E校园" */;
 			buildPhases = (
+				07C42B7F2E3F1B5CAF72845C /* Check Pods Manifest.lock */,
 				E1D1F8731C068F3F00229D48 /* Sources */,
 				E1D1F8741C068F3F00229D48 /* Frameworks */,
 				E1D1F8751C068F3F00229D48 /* Resources */,
+				24EFC186FAE3459C8B26C215 /* Embed Pods Frameworks */,
+				038D8ACABD4B95099CA49D9F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -441,6 +509,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E13A16271C0801510060BA9B /* 大学生之家.jpg in Resources */,
 				E1D1F8861C068F3F00229D48 /* Main.storyboard in Resources */,
 				E1D1F88B1C068F3F00229D48 /* LaunchScreen.xib in Resources */,
 				E1BA2BD81C06FA7000866DE5 /* MJRefresh.bundle in Resources */,
@@ -457,6 +526,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		038D8ACABD4B95099CA49D9F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		07C42B7F2E3F1B5CAF72845C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		24EFC186FAE3459C8B26C215 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E1D1F8731C068F3F00229D48 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -465,6 +582,7 @@
 				E1D1F8AF1C06968900229D48 /* BaoMing_ViewController.m in Sources */,
 				E1BA2BD01C06FA7000866DE5 /* MJRefreshAutoNormalFooter.m in Sources */,
 				E1BA2BD11C06FA7000866DE5 /* MJRefreshAutoStateFooter.m in Sources */,
+				E13A162A1C080B5B0060BA9B /* Login_ViewController.m in Sources */,
 				E1BA2B991C06D1C600866DE5 /* First_ViewController.m in Sources */,
 				E1BA2B9A1C06D1C600866DE5 /* Forth_ViewController.m in Sources */,
 				E1BA2BD21C06FA7000866DE5 /* MJRefreshBackGifFooter.m in Sources */,
@@ -477,17 +595,22 @@
 				E1D1F8801C068F3F00229D48 /* AppDelegate.m in Sources */,
 				E1BA2B721C069A7700866DE5 /* Reachability.m in Sources */,
 				E1BA2BCD1C06FA7000866DE5 /* MJRefreshFooter.m in Sources */,
+				E13A161E1C07E8A20060BA9B /* Setting_ViewController.m in Sources */,
 				E1D1F87D1C068F3F00229D48 /* main.m in Sources */,
 				E1BA2BCC1C06FA7000866DE5 /* MJRefreshComponent.m in Sources */,
 				E1BA2B901C06D0E200866DE5 /* JRSegmentViewController.m in Sources */,
 				E1BA2BD61C06FA7000866DE5 /* MJRefreshNormalHeader.m in Sources */,
 				E1BA2BD31C06FA7000866DE5 /* MJRefreshBackNormalFooter.m in Sources */,
 				E1BA2BCA1C06FA7000866DE5 /* MJRefreshAutoFooter.m in Sources */,
+				E13A162D1C080B800060BA9B /* Register_ViewController.m in Sources */,
+				E13A16251C07F4F40060BA9B /* Modify_ViewController.m in Sources */,
 				E1BA2B9B1C06D1C600866DE5 /* Second_ViewController.m in Sources */,
 				E1BA2BCE1C06FA7000866DE5 /* MJRefreshHeader.m in Sources */,
+				E13A16241C07F4F40060BA9B /* AboutMe_ViewController.m in Sources */,
 				E1BA2B9C1C06D1C600866DE5 /* Third_ViewController.m in Sources */,
 				E1BA2BD71C06FA7000866DE5 /* MJRefreshStateHeader.m in Sources */,
 				E1BA2BD41C06FA7000866DE5 /* MJRefreshBackStateFooter.m in Sources */,
+				E13A16301C082B4E0060BA9B /* LCTableViewPickerControl.m in Sources */,
 				E1BA2BD91C06FA7000866DE5 /* MJRefreshConst.m in Sources */,
 				E1BA2B8F1C06D0E200866DE5 /* JRSegmentControl.m in Sources */,
 				E1D1F8B01C06968900229D48 /* Home_ViewController.m in Sources */,
@@ -616,10 +739,11 @@
 		};
 		E1D1F89B1C068F3F00229D48 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 711F63D46938C3EFC8843231 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "E校园/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -627,10 +751,11 @@
 		};
 		E1D1F89C1C068F3F00229D48 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE962E71CABA627208FE2AFE /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "E校园/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
