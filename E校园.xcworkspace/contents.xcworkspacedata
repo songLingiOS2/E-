@@ -2,30 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Register_ViewController.h">
-   </FileRef>
-   <FileRef
-      location = "group:Register_ViewController.m">
-   </FileRef>
-   <FileRef
-      location = "group:Login_ViewController.h">
-   </FileRef>
-   <FileRef
-      location = "group:Login_ViewController.m">
-   </FileRef>
-   <FileRef
-      location = "group:AboutMe_ViewController.h">
-   </FileRef>
-   <FileRef
-      location = "group:AboutMe_ViewController.m">
-   </FileRef>
-   <FileRef
-      location = "group:Modify_ViewController.h">
-   </FileRef>
-   <FileRef
-      location = "group:Modify_ViewController.m">
-   </FileRef>
-   <FileRef
       location = "group:E&#x6821;&#x56ed;.xcodeproj">
    </FileRef>
    <FileRef

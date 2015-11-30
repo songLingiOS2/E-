@@ -17,8 +17,13 @@
 
 #import "MJRefresh.h"
 
-@interface Home_ViewController ()
+#import "AFNetworking.h"
+#import "JSONKit.h"
 
+@interface Home_ViewController ()
+{
+     AFHTTPRequestOperationManager *manager;
+}
 
 @end
 
@@ -28,13 +33,28 @@
     [super viewDidLoad];
     
     self.view.backgroundColor = [UIColor whiteColor];
-   
+    [self createHttp];
     
     
 }
 -(void)viewWillAppear:(BOOL)animated{
    
 }
+
+-(void)createHttp{
+    manager = [AFHTTPRequestOperationManager manager];
+    manager.requestSerializer = [AFJSONRequestSerializer serializer];
+    manager.responseSerializer = [AFHTTPResponseSerializer serializer];
+    NSDictionary *dict = @{ @"format":@"normal",@"type":@"all" };
+    [manager GET:@"http://m.yaode100.com:88/Esch/user/course/qacname?" parameters:dict success:^(AFHTTPRequestOperation *operation, id responseObject) {
+        NSString *response = [[NSString alloc] initWithData:responseObject encoding:NSUTF8StringEncoding];
+        NSDictionary *resultsDictionary = [response objectFromJSONString];
+        NSLog(@"%@",resultsDictionary);
+    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        
+    }];
+}
+
 -(void)viewDidAppear:(BOOL)animated{
     First_ViewController *firstVC = [[First_ViewController alloc] init];
     Second_ViewController *secondVC = [[Second_ViewController alloc] init];

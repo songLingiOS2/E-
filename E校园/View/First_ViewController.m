@@ -8,9 +8,13 @@
 
 #import "First_ViewController.h"
 #import "MJRefresh.h"
+
+
+#import "JSONKit.h"
 @interface First_ViewController ()<UITableViewDataSource,UITableViewDelegate>
 {
     UITableView *tableView1;
+   
 }
 @end
 
@@ -19,6 +23,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
+    
     
     __unsafe_unretained UITableView *table = self.tableView;
     // 下拉刷新
@@ -42,9 +47,15 @@
     }];
 
     
+    
+        
+    
     [self createView];
     
 }
+
+
+
 
 -(void)createView{
     tableView1 = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth([UIScreen mainScreen].bounds) , CGRectGetHeight([UIScreen mainScreen].bounds)-100) style:UITableViewStylePlain];
@@ -53,6 +64,8 @@
    
 
     [self.view addSubview:tableView1];
+    
+    
      
     
 }
@@ -79,6 +92,10 @@
     
     return cell;
 
+}
+
+-(void)viewWillAppear:(BOOL)animated{
+    
 }
 
 

@@ -10,11 +10,17 @@
 #import "Register_ViewController.h"
 #import "AFNetworking.h"
 
-@interface Login_ViewController ()<UITextFieldDelegate>
+#import "MBProgressHUD.h"
+#import "JSONKit.h"
+
+
+@interface Login_ViewController ()<UITextFieldDelegate,MBProgressHUDDelegate>
 {
     UITextField *userName;
     UITextField *userPsw;
     AFHTTPRequestOperationManager *manager;
+    MBProgressHUD *HUD;
+    
 }
 
 
@@ -30,7 +36,8 @@
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"注册" style:UIBarButtonItemStylePlain target:self action:@selector(Register:)];
     
     manager = [AFHTTPRequestOperationManager manager];
-    
+    MBBarProgressView *hud = [[MBBarProgressView alloc] init];
+    [self.view addSubview:hud];
     
     [self createView];
     
@@ -79,19 +86,27 @@
 -(void)LoginBtn{
     NSLog(@"...%@..........%@.....",userName.text,userPsw.text);
     
+    
+    
+    
     manager.requestSerializer = [AFJSONRequestSerializer serializer];
     manager.responseSerializer = [AFHTTPResponseSerializer serializer];
-    NSDictionary *dict = @{ @"format":@"normal",@"pwd":userPsw.text, @"username":userName.text };
-    
+//    NSDictionary *dict = @{ @"format":@"normal",@"pwd":userPsw.text, @"username":userName.text };
+    NSDictionary *dict = @{ @"format":@"normal",@"type":@"all" };
+//    [self showProgress:@"正在登陆"];userlogin?
     if (userName.text.length == 11) {
         
         if (userPsw.text.length >= 6) {
-            
-            [manager GET:@"http://m.yaode100.com:88/Esch/user/userlogin?" parameters:dict success:^(AFHTTPRequestOperation *operation, id responseObject) {
+            [manager GET:@"http://m.yaode100.com:88/Esch/user/course/qacname?" parameters:dict success:^(AFHTTPRequestOperation *operation, id responseObject) {
+                NSString *response = [[NSString alloc] initWithData:responseObject encoding:NSUTF8StringEncoding];
+                NSDictionary *resultsDictionary = [response objectFromJSONString];
+                NSLog(@"%@",resultsDictionary);
                 
-                NSLog(@"ooooo%@",responseObject);
+                
+                
+                
             } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
-                NSLog(@"xxxx%@",error);
+                
             }];
             
             
@@ -113,6 +128,30 @@
     
     
 }
+
+
+
+
+#pragma mark-----------------MBHUD--------------------------------------------
+-(void)showProgress:(NSString *)text{
+    
+    [HUD showWhileExecuting:@selector(xxxx) onTarget:self withObject:nil animated:YES];
+    HUD.labelText  = text;
+    [self.view addSubview:HUD];
+    [HUD show:YES];
+    
+}
+
+-(void)xxxx{
+    
+}
+
+-(void)hidenProgress{
+    
+    [HUD hide:YES];
+}
+
+
 
 -(void)Register:(UITabBarItem *)sender{
     Register_ViewController *Register = [[Register_ViewController alloc] init];
